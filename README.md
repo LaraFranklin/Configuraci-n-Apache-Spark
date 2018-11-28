@@ -12,7 +12,8 @@
 
 3. El master instala Open SSH Server-Client, ésto nos permite controlar o transferir archivos de forma remota a computadoras. OpenSSH proporciona un servidor daemon y herramientas de cliente para facilitar el control remoto encriptado seguro y las operaciones de transferencia de archivos.
 
-"""
+""" shell
+
 sudo apt-get install openssh-server´ 
 """
 Comprobamos que nuestro servicio esta activo
