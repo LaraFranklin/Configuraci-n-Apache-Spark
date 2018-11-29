@@ -4,9 +4,11 @@
  
  En esta práctica se llega a tener desde dos puntos de vista, en el primero la configuración de **Apache Spark** en una sola PC y a continuación se presenta la configuración para realizar un **cluster** con N PC´s.
  
+ ***
+ 
  **Se debe seguir los siguientes pasos.**
 
-1. Se descarga apache spark desde la página oficial <**https://spark.apache.org/**> version 2.4.0
+1. Se descarga apache spark desde la página oficial <https://spark.apache.org/> version 2.4.0
 
 2. Se instaló última versión de java, scala, python. Se recomienda utilizar la versión de python 3.6 
 
@@ -14,30 +16,30 @@
 
 """ shell
 
-sudo apt-get install openssh-server´ 
+ sudo apt-get install openssh-server´ 
 """
 Comprobamos que nuestro servicio esta activo
 
 ´´´
-sudo service ssh status
+ sudo service ssh status
 ´´´
 
 Tenemos que permitir la comunicación del ssh por el puerto 24, por lo que ingresamos a al archivo sshd_config, vamos a utilizar nano.
 
 ´´´
-sudo nano /etc/ssh/sshd_config
+ sudo nano /etc/ssh/sshd_config
 ´´´
 y descomentamos la linea del archivo que tenga **port 24**
 
 Ahora es importante reiniciar el servicio
 
 ´´´
-sudo service ssh restart
+ sudo service ssh restart
 ´´´
 
 Generamos nuestra clave pública y privada para la comunicación.
 ´´´
-ssh-keygen -b 4096 -t rsa
+ ssh-keygen -b 4096 -t rsa
 ´´´
 
 
