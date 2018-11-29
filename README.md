@@ -2,7 +2,7 @@
  
  A continuación se presenta una descripción de las configuraciones necesarias para la instalación de Apache Spark en Ubuntu 16.04.
  
- En esta práctica se llega a tener desde dos puntos de vista, en el primero la configuración de **Apache Spark** en una sola PC y a continuación se presenta la configuración para realizar un **cluster** con N PC´s.
+ En esta práctica se realiza la configuración de **Apache Spark**  para realizar un **cluster** con N PC´s.
  
  ***
  
@@ -14,10 +14,10 @@
 
 3. El master instala Open SSH Server-Client, ésto nos permite controlar o transferir archivos de forma remota a computadoras. OpenSSH proporciona un servidor daemon y herramientas de cliente para facilitar el control remoto encriptado seguro y las operaciones de transferencia de archivos.
 
-""" shell
+´shell
 
  sudo apt-get install openssh-server´ 
-"""
+´
 Comprobamos que nuestro servicio esta activo
 
 ´´´
