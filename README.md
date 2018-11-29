@@ -18,9 +18,9 @@
 
 Comprobamos que nuestro servicio esta activo
 
-´´´
+```
  sudo service ssh status
-´´´
+```
 
 Tenemos que permitir la comunicación del ssh por el puerto 24, por lo que ingresamos a al archivo sshd_config, vamos a utilizar nano.
 
