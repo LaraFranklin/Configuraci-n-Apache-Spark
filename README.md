@@ -145,7 +145,7 @@ Ahora les dejamos un enlace para que puedan probar como trabaja apache spark.
 
 [ejemplo](<http://www.godatafy.com/tech-blog/apache-spark-word-count-program/>)
 
-Se puede utilizar la siguiente base de [datos] (<https://drive.google.com/file/d/1cCPYdJBEbb9TZ7LJ6Nq9kvVSDXrxZa_g/view>)
+Se puede utilizar la siguiente base de [datos](<https://drive.google.com/file/d/1cCPYdJBEbb9TZ7LJ6Nq9kvVSDXrxZa_g/view>).
 
 Ahora les voy  poner el ejemplo para contar el número de vuelos entre dos aeropuertos con una base de datos libre, esta base de datos ha sido modificada para tener las entradas como "AeropuertoSalida,AeropuertoLlegada,mes", en donde podemos aplicar el siguiente código dentro de python y nos retorna la solución esperada. Para obtener esta base de datos descargar los datos desde 
 
