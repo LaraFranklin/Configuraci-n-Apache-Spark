@@ -143,7 +143,7 @@ jps
 ***
 Ahora les dejamos un enlace para que puedan probar como trabaja apache spark.
 
-<http://www.godatafy.com/tech-blog/apache-spark-word-count-program/>
+[ejemplo](<http://www.godatafy.com/tech-blog/apache-spark-word-count-program/>)
 
 Se puede utilizar la siguiente base de datos <https://drive.google.com/file/d/1cCPYdJBEbb9TZ7LJ6Nq9kvVSDXrxZa_g/view>
 
