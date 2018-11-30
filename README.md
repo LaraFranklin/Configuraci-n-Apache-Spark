@@ -145,7 +145,7 @@ Ahora les dejamos un enlace para que puedan probar como trabaja apache spark.
 
 [ejemplo](<http://www.godatafy.com/tech-blog/apache-spark-word-count-program/>)
 
-Se puede utilizar la siguiente base de datos <https://drive.google.com/file/d/1cCPYdJBEbb9TZ7LJ6Nq9kvVSDXrxZa_g/view>
+Se puede utilizar la siguiente base de [datos] (<https://drive.google.com/file/d/1cCPYdJBEbb9TZ7LJ6Nq9kvVSDXrxZa_g/view>)
 
 Ahora les voy  poner el ejemplo para contar el número de vuelos entre dos aeropuertos con una base de datos libre, esta base de datos ha sido modificada para tener las entradas como "AeropuertoSalida,AeropuertoLlegada,mes", en donde podemos aplicar el siguiente código dentro de python y nos retorna la solución esperada. Para obtener esta base de datos descargar los datos desde 
 
@@ -159,13 +159,13 @@ counts.collect()
 
 Para finalizar, les vamos a dejar a disposición una máquina virtual para que se descarguen la cual ya cuenta con las configuraciones para un slave, para convertirle en master univamenete agregar el archivo ../spark/conf 
 
-descargar máquina virtual desde Drive
-<https://drive.google.com/file/d/10tr3z_HLS9E3zouY8PvcLLua9CNPVI2G/view?usp=sharing>
+descargar [máquina virtual](<https://drive.google.com/file/d/10tr3z_HLS9E3zouY8PvcLLua9CNPVI2G/view?usp=sharing>) desde Drive 
 
 Notas importantes para la importar la máquina virtual dentro de Virtual Box
 
 Recursos: Virtual Box
 Importar la máquina virtual, dejar todo por defecto y marcar la casilla Reinicializar la dirección MAC localizada en la parte inferior.
+la contraseña es **1234** para el usuario lara y hduser, las configuraciones estan realizadas bajo el usuario hduser
 
 La configuración de la red establecer en modo puente para tener una ip de la misma red que nuestro supervisor
 
